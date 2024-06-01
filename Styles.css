@@ -1,0 +1,38 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.block {
+    flex: 1;
+    padding: 20px;
+}
+
+.block h1, .block h2 {
+    margin-top: 0;
+}
+
+.block p {
+    margin-bottom: 0;
+}
+
+.block-initial {
+    background-color: #f0f0f0;
+}
+
+.block-lateral {
+    background-color: #e0e0e0;
+}
+
+.block-lateral-left {
+    order: -1; /* Cambia el orden de aparición */
+}
+body {
+    background: linear-gradient(to bottom, #ffcc00, #ff6600); /* Degradado de amarillo a naranja */
+}

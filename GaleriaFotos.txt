@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Fotográfica</title>
+    <style>
+        /* Estilos CSS para la galería de imágenes */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería Fotográfica</h1>
+    
+    <div class="gallery">
+        <img src="andrew3.jpg" alt="Imagen 1">
+        <img src="andrew2jpg.jpg" alt="Imagen 2">
+        <img src="andrew1.jpg" alt="Imagen 3">
+        <!-- Agregar más imágenes según sea necesario -->
+
+<ul>   
+ 
+   <li><a href="Pagina.html">Inicio</a></li>
+   
+        
+    <li><a href="Bloques.html">bloques</a></li>
+    
+    <li><a href="Tablas.html">Tablas</a></li>
+     
+    <li><a href="Aritmetica.html">calcular</a></li>
+
+</ul>
+
+</div>
+
+</body>
+</html>
